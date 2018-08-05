@@ -1,0 +1,12 @@
+Version 1.1
+==================
+1. Initial Game FSM template version, it's based on Entitas  1.4.2
+2. 如果你的Entitas是free 版本, 安裝整個package前請follow以下步驟
+   1) 請不要整個package目錄放進 Asset 下, 請先暫時放在Asset外
+   2) 請先將package/components 目錄拷貝到 Asset/Sources 下 
+      (Sources目錄 是你預定放置Entitas source code的地方)
+   3) 放置完後, 啟用Entitas Auto-gen code 的功能, 這時Entitas會parsing 
+      Components目錄內的components宣告, 創建Code
+   4) 確認無Error後,刪除Coponents 目錄,
+      再將整個package移到Asset/Sources目錄下
+   5) 完成移植
