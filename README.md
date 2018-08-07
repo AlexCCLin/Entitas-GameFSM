@@ -22,14 +22,14 @@ This is Game FSM package using Entitas 1.4.2 framework in Unity
 5. 支援 FSM event system, 當FSMSwitchComponent發生時,會觸發FSM event ,提供了 interface IFSMSwitchEventListener, 可接受FSM event 的監聽和OnFSMSwitch() 的實作
 
 ## FSM 系統介紹
-                  call func                  Trigger
-FSMUniTestSystem |-------> FSMSwitchService ------|--> FSMHoldSystem 
-                                            |--------> FSMReturnSystem
-                                            |--------> FSMSwitchStstem
-                                            |--------> FSMResetSystem  
-                                                       .
-                 |----> FSMAdapterService --------|--> FSMAdapterSystem
-                                            |--------> FSMProcessingSystem
-                                            |--------> FSMProcessingEventSystem
+>                  call func                  Trigger
+> FSMUniTestSystem -------> FSMSwitchService ---------> FSMHoldSystem 
+>                                            |--------> FSMReturnSystem
+>                                            |--------> FSMSwitchStstem
+>                                            |--------> FSMResetSystem  
+>                                                       
+>                 ----> FSMAdapterService ------------> FSMAdapterSystem
+>                                            |--------> FSMProcessingSystem
+>                                            |--------> FSMProcessingEventSystem
 
 
