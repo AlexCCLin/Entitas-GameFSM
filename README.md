@@ -23,14 +23,17 @@ This is Game FSM package using Entitas 1.4.2 framework in Unity
 
 ## FSM 系統介紹  
 
->                  call func                  Trigger  
-> FSMUniTestSystem -------> FSMSwitchService ---------> FSMHoldSystem  
->                                                       FSMReturnSystem  
->                                            |--------> FSMSwitchStstem  
->                                            |--------> FSMResetSystem                                                        
->                 ----> FSMAdapterService ------------> FSMAdapterSystem  
->                                            |--------> FSMProcessingSystem  
->                                            |--------> FSMProcessingEventSystem  
+![Image](https://github.com/AlexCCLin/Entitas-GameFSM/blob/master/FSMSystems.png)
+
+
+FSMUniTestSystem
+FSMSwitchService 
+FSMHoldSystem  
+FSMReturnSystem  
+FSMSwitchStstem  
+FSMResetSystem                                                        
+FSMAdapterService 
+FSMAdapterSystem  
+FSMProcessingSystem  
+FSMProcessingEventSystem  
                                             
-
-
