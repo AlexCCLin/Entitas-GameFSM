@@ -26,9 +26,9 @@ This is Game FSM package using Entitas 1.4.2 framework in Unity
 ![Image](https://github.com/AlexCCLin/Entitas-GameFSM/blob/master/FSMSystems.png)
 
 
-FSMUniTestSystem
-FSMSwitchService 
-FSMHoldSystem  
+FSMUniTestSystem  
+FSMSwitchService   
+FSMHoldSystem    
 FSMReturnSystem  
 FSMSwitchStstem  
 FSMResetSystem                                                        
